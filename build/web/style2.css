@@ -1,0 +1,97 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 6, 2024, 11:50:33 AM
+    Author     : admin
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url("https://img.iproperty.com.my/angel/750x1000-fit/wp-content/uploads/sites/7/2023/12/nha-tro-gac-lung-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1, h5 {
+    color: #fff;
+}
+
+.card {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.pagination .page-link {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.pagination .page-link:hover {
+    color: #007bff;
+    background-color: #fff;
+}
+
+.pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.banner {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
